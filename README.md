@@ -1,4 +1,3 @@
-# Unity-Base-Singleton
 # BaseSingleton for Unity (v1.0.0)  
 　
 　
