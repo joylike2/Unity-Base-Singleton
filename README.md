@@ -21,6 +21,8 @@ Unity 엔진을 기반으로  **BaseSingleton** 을 상속 받은 클래스를 �
 　
 ## 📌 사용 방법
 ```csharp
+//GameManager는 BaseSingleton을 상속받아 자동으로 싱글톤으로 생성되며,
+//Init() 코루틴을 통해 비동기 초기화 과정을 구현할 수 있습니다.
 public class GameManager : BaseSingleton<GameManager> {
 	protected override Ienumerator Init() {
 		yield return new WaitForSeconds(1f);
