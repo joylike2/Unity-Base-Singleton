@@ -44,7 +44,8 @@ IEnumerator AfterInit() {
 await GameManager.Instance.InitCompleted;
 Debug.Log("GameManager 초기화 완료");
 ```
-　
+
+
 　
 　
 　
