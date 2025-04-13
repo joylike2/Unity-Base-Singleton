@@ -20,7 +20,7 @@ Unity 엔진을 기반으로  **BaseSingleton** 을 상속 받은 클래스를 �
 　
 　
 ## 📌 사용 방법
-　- **BaseSingleton** 을 상속받아 자동으로 싱글톤으로 생성합니다.
+- **BaseSingleton** 을 상속받아 자동으로 싱글톤으로 생성합니다.
 
  
 　- 비동기 초기화
