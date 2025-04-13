@@ -16,6 +16,25 @@ Unity 엔진을 기반으로  **BaseSingleton** 을 상속 받은 클래스를 �
 - DontDestroyOnLoad 자동 적용: 씬 전환 간 객체 유지 보장
 - 중복 인스턴스 방지: 이미 존재 하는 경우 자동 제거 처리
 
+
+　
+　
+　
+## 📌 설치 방법
+- 순서
+　  
+	Unity Package Manager 를 통해 가져올 수 있습니다.
+	1. **Package Manager** 열기
+	2. **Install package from git URL…** 선택 
+	3. **`https://github.com/joylike2/Unity-SaveLoad-FileManager.git`** 입력 후 설치
+　	     
+<img src="https://github.com/joylike2/Unity-SaveLoad-FileManager/blob/main/Documentation~/Img_PackageManager1.png?raw=true" width="480px">
+
+
+```none
+https://github.com/joylike2/Unity-SaveLoad-FileManager.git
+```
+
 　
 　
 　
