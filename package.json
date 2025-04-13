@@ -1,0 +1,24 @@
+{
+  "name": "dev.lifelogs.unity-basesingleton",
+  "version": "1.0.0",
+  "displayName": "Unity BaseSingleton",
+  "description": "A lightweight Unity base class that automatically turns any MonoBehaviour into a singleton, supporting both coroutine and Task-based async initialization.",
+  "unity": "2021.3",
+  "author": {
+    "name": "sky",
+    "email": "sky@lifelogs.dev",
+    "url": "https://github.com/joylike2"
+  },
+  "keywords": [
+    "unity",
+    "singleton",
+    "base",
+    "async",
+    "task",
+    "coroutine",
+    "lifecycle",
+    "pattern",
+    "monobehaviour",
+    "manager"
+  ]
+}
