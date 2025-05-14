@@ -80,7 +80,7 @@ Debug.Log("GameManager 초기화 완료");
 　
 　
  　
-## 🎉
+## 🎉 라이선스
 This package is licensed under The MIT License (MIT)
 
 Copyright © 2025 joylike2 (https://github.com/joylike2)
