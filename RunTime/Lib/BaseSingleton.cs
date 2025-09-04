@@ -2,7 +2,7 @@ using System.Collections;
 using System.Threading.Tasks;
 using UnityEngine;
 
-public class BaseSingleton<T> : MonoBehaviour where T : Object {
+public class BaseSingleton<T> : MonoBehaviour where T : MonoBehaviour {
     private static T _instance;
 
     public static T Instance {
