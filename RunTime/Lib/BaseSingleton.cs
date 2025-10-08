@@ -2,7 +2,7 @@ using System.Collections;
 using System.Threading.Tasks;
 using UnityEngine;
 
-public class BaseSingleton<T> : MonoBehaviour where T : Object {
+public class BaseSingleton<T> : MonoBehaviour where T : MonoBehaviour {
     private static T _instance;
 
     public static T Instance {
@@ -11,8 +11,12 @@ public class BaseSingleton<T> : MonoBehaviour where T : Object {
 #if UNITY_2023_1_OR_NEWER
                 _instance = FindFirstObjectByType<T>();
 #else
-            _instance = FindObjectOfType<T>();
+                _instance = FindObjectOfType<T>();
 #endif
+                if (_instance == null) {
+                    GameObject go = new GameObject(typeof(T).Name);
+                    _instance = go.AddComponent<T>();
+                }
             }
 
             return _instance;
