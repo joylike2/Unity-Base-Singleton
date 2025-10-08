@@ -23,7 +23,7 @@ public class BaseSingleton<T> : MonoBehaviour where T : Object {
     private readonly TaskCompletionSource<bool> _initTaskSource = new TaskCompletionSource<bool>();
     public Task InitCompleted => _initTaskSource.Task;
 
-    private void Awake() {
+    protected virtual void Awake() {
         if (_instance == null) {
             _instance = this as T;
             DontDestroyOnLoad(this.gameObject);
